@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBI Online NEFT Transfer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-300">
+
+    <h1 class="text-center text-3xl font-bold text-gray-800 mt-4">
+        SBI Online NEFT Transfer
+    </h1>
+
+    <hr class="border-gray-700 my-4">
+
+    <p class="text-blue-900">
+        Select the account from which you wish to transfer funds
+    </p>
+
+    <div class="text-center">
+
+        <table class="border border-black mx-auto mt-4">
+            <tr>
+                <th class="border border-black px-4 py-2">Account no.</th>
+                <th class="border border-black px-4 py-2">Account type</th>
+                <th class="border border-black px-4 py-2">Branch</th>
+                <th class="border border-black px-4 py-2">Balance</th>
+            </tr>
+
+            <tr>
+                <td class="border border-black px-4 py-2">
+                    <input type="radio">
+                    0000000201347xxxx
+                </td>
+                <td class="border border-black px-4 py-2">Savings account</td>
+                <td class="border border-black px-4 py-2">Chennai</td>
+                <td class="border border-black px-4 py-2">100,000</td>
+            </tr>
+        </table>
+
+        <label>Account</label>
+        <input type="text"
+               placeholder="Enter your Account Number"
+               required
+               class="border border-gray-500 px-2 py-1 ml-2">
+
+        <br><br>
+
+        <label>Purpose</label>
+
+        <select class="border border-gray-500 px-2 py-1 ml-2">
+            <option>saving money</option>
+            <option>Invest gold</option>
+            <option>saving gold</option>
+        </select>
+
+    </div>
+
+    <br>
+
+    <p class="text-blue-900">
+        Select the Intra bank beneficiary account
+    </p>
+
+    <div class="text-center">
+
+        <table class="border border-black mx-auto mt-4">
+            <tr>
+                <th class="border border-black px-4 py-2">Account.no</th>
+                <th class="border border-black px-4 py-2">Intra bank beneficiary</th>
+                <th class="border border-black px-4 py-2">Branch</th>
+                <th class="border border-black px-4 py-2">limit</th>
+            </tr>
+
+            <tr>
+                <td class="border border-black px-4 py-2">
+                    <input type="radio" name="name">
+                    0000000201347xxxx
+                </td>
+                <td class="border border-black px-4 py-2">Rajan</td>
+                <td class="border border-black px-4 py-2">Exhibition road</td>
+                <td class="border border-black px-4 py-2">
+                    100000
+                    <button class="bg-orange-500 text-white border-0 px-2 py-1 ml-1">
+                        change
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="border border-black px-4 py-2">
+                    <input type="radio" name="name">
+                    0000000201347xxxx
+                </td>
+                <td class="border border-black px-4 py-2">Guna</td>
+                <td class="border border-black px-4 py-2">Exhibition road</td>
+                <td class="border border-black px-4 py-2">
+                    120000
+                    <button class="bg-orange-500 text-white border-0 px-2 py-1 ml-1">
+                        change
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="border border-black px-4 py-2">
+                    <input type="radio" name="name">
+                    0000000201347xxxx
+                </td>
+                <td class="border border-black px-4 py-2">Anbu</td>
+                <td class="border border-black px-4 py-2">Exhibition road</td>
+                <td class="border border-black px-4 py-2">
+                    123000
+                    <button class="bg-orange-500 text-white border-0 px-2 py-1 ml-1">
+                        change
+                    </button>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+    <br>
+
+    <h4 class="text-left pl-[39%] font-bold">
+        Select payment option
+    </h4>
+
+    <div class="text-center">
+
+        <label>Payment option *</label>
+
+        <input type="radio" id="pay-now" name="one">
+        <label for="pay-now">Pay now</label>
+
+        <input type="radio" id="schedule-later" name="one">
+        <label for="schedule-later">Schedule later</label>
+
+        <br><br>
+
+        <h5 class="text-red-600 font-bold">
+            Please note, Beneficiary Account Number will ONLY be used for Electronic Fund Transfer
+            (please ensure correctness), the Beneficiary Name provided will not be considered
+            for Electronic Fund Transfer as per RBI guidelines.
+        </h5>
+
+        <br><br>
+
+        <input
+            class="bg-orange-500 text-white border-0 m-1 px-3 py-1 cursor-pointer"
+            type="submit"
+            value="Submit">
+
+        <input
+            class="bg-orange-500 text-white border-0 m-1 px-3 py-1 cursor-pointer"
+            type="submit"
+            value="Cancel">
+
+    </div>
+
+</body>
+</html>
