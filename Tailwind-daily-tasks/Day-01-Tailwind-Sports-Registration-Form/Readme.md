@@ -1,12 +1,12 @@
 # 🏆 Day 01 – Tailwind CSS Sports Registration Form
 
-A simple and responsive **School Championship Registration Form** created using **HTML5 and Tailwind CSS**.
+A simple and responsive **School Championship Registration Form** created using **HTML5 and Tailwind CSS**.  
 
 This is my **Day 01 Tailwind CSS Daily Task**, focused on learning and practicing Tailwind utility classes for styling HTML forms.
 
 ---
 
-## 📌 Project Overview
+## 📌 Project Overview 
 
 The Sports Registration Form allows students to provide their details and register for a school championship.
 
