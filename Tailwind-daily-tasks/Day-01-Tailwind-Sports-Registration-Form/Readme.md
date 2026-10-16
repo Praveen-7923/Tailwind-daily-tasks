@@ -7,7 +7,7 @@ This is my **Day 01 Tailwind CSS Daily Task**, focused on learning and practicin
 ---
 
 ## 📌 Project Overview 
-
+  
 The Sports Registration Form allows students to provide their details and register for a school championship.
 
 The form includes:
@@ -23,12 +23,12 @@ The form includes:
 * 📅 Date
 * ⏰ Time
 * 📷 Passport Photo Upload
-* ✅ Submit Button
+* ✅ Submit Button 
 * 🔄 Reset Button
-
+ 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies Used 
 
 * **HTML5**
 * **Tailwind CSS**
@@ -71,7 +71,7 @@ In this task, I practiced several Tailwind CSS utility classes, including:
 * `rounded-lg`
 * `rounded`
 
-### Typography
+### Typography 
 
 * `text-3xl`
 * `font-bold`
@@ -100,6 +100,7 @@ Day-01-Tailwind-Sports-Registration-Form/
 
 ## 🚀 How to Run
 
+ 
 1. Clone the repository:
 
 ```bash
